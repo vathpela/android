@@ -10,8 +10,11 @@
            fetch=".."
            review="review.cyanogenmod.org" />
 
-  <remote  name="private"
-           fetch="ssh://git@github.com" />
+  <remote  name="private" />
+
+  <remote  name="pjones"
+	   fetch="ssh://git@github.com"
+	   revision="refs/branches/cm-12.1.pj" />
 
   <default revision="refs/heads/stable/cm-12.1-YOG4P"
            remote="github"
